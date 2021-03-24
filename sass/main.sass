@@ -1,0 +1,240 @@
+body
+    box-sizing: border-box
+    font-family: "GothamPro-Medium", sans-serif
+    font-size: 12px
+    background-color: #ffffff
+    color: #181818
+h1, h2, h3, p
+    margin: 0
+.network
+    background-color: #ffffff
+    margin-bottom: 39px
+    .container
+               
+        .row
+            padding: 10px 10px 10px 10px
+            //background-color: #c3c3c3
+            align-items: center
+            display: flex
+            //flex-wrap: wrap
+            .bl1
+                display: flex
+                //flex-wrap: wrap 
+            .bl2
+                display: flex
+                //flex-wrap: wrap 
+            
+
+            .col, .col-5, .col-3, .col-2, .colimg, .colitem
+                background-color: #ffffff
+                //flex-wrap: wrap
+            .col, .colimg
+                padding-top: 6px
+                padding-bottom: 6px
+                padding-right: 57px
+                padding-left: 40px
+            .col-5, .colitem
+                .nav
+                    display: flex
+                padding-right: 0
+                
+            .col-2
+                display: flex
+                padding-top: 17px
+                padding-bottom: 17px
+                padding-left: 0
+                padding-right: 20px
+                
+                
+            .nav-item
+                .nav-link 
+                    display: flex
+                    flex-direction: column
+                    align-items: center
+                    
+                    
+            .colsearch
+                display: flex
+                background-color: #ffffff
+                padding-top: 17px
+                padding-bottom: 17px
+                padding-right: 20px
+                .search-img
+                    padding-right: 10px
+                    padding-left: 10px
+            .customer
+                display: flex
+                align-items: center
+                justify-content: end
+                padding: 2px
+                padding-left: 40px
+                background-color: #ffffff
+                &-description
+                    margin-left: 20px
+            .last
+                display: flex
+                flex-direction: column
+                align-items: center
+                padding-top: 8px
+                padding-bottom: 8px
+                background-color: #ffffff
+                width: 100px
+
+
+
+
+        .row2
+            &-block
+                width: 250px
+                margin-left: 0px
+                //border: 2px solid #000000 
+                //background-color: #c3c3c3
+                padding: 20px 20px 20px 20px
+                margin-right: 64px
+                .nav
+                    display: flex
+                    flex-direction: column
+                    background: #ffffff
+                    .connections, .invitations, .teammates, .groups, .pages, .heashtags  
+                     border: 1px solid #000
+                    .connections, .invitations, .teammates, .groups, .pages, .heashtags 
+                        position: relative
+                        z-index: 2
+                        .value
+                            padding-left: 20px
+                    div
+                        display: flex
+                        height: 52px
+                        //border-bottom-style: solid
+                        padding: 0 30px 0 30px
+                        justify-content: space-between
+                        align-items: center
+                        div
+                            padding: 0
+                        img
+                            width: 16px
+                            height: 16px
+                            margin-right: 10px
+                    .hoverblue
+                                               
+                        display: none
+                %var-hover
+                    display: flex
+                    width: 20px
+                    background-color: blue
+                    position: absolute
+                    z-index: 10
+                    left: 0px
+                        
+                        
+                .connections:hover
+                    cursor: pointer                 
+                    .hoverblue
+                        @extend %var-hover
+                
+                        
+                    
+
+                .invitations:hover
+                    cursor: pointer
+                    .hoverblue
+                        @extend %var-hover
+
+                .teammates:hover
+                    cursor: pointer
+                    .hoverblue
+                        @extend %var-hover
+
+                .groups:hover
+                    cursor: pointer
+                    .hoverblue
+                        @extend %var-hover
+
+                .pages:hover
+                    cursor: pointer
+                    .hoverblue
+                        @extend %var-hover
+                                     
+                .heashtags:hover
+                    cursor: pointer
+                    .hoverblue
+                        @extend %var-hover
+@media screen and (max-width: 1200px)
+    .row
+        flex-direction: column
+
+                        
+@media screen and (max-width: 770px)
+    .row
+        flex-direction: column
+        
+@media screen and (max-width: 550px)
+       
+    .network .container .row .colimg
+        padding: 0
+    .nav-link
+        padding: 8px 4px
+    .network .container .row .customer
+        padding-left: 5px
+        
+    .customer-description h4
+        font-size: 14px 
+    .network .container .row .colsearch .search-img
+        display: none
+
+@media screen and (max-width: 380px)
+    .customer-description
+        display: none
+
+@media screen and (max-width: 325px)
+    .network .container .row .colsearch
+        padding-right: 10px
+    .network .container .row .last
+        width: 70px
+    .network .container .row .colimg
+        //
+        
+    .nav-link
+        padding: 8px 1px
+    .network .container .row .nav-item .nav-link p
+        font-size: 10px
+        
+        
+    
+
+    
+        
+
+
+
+
+        
+
+
+
+
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    
+                    
+                                          
+                    
+                    
+                        
+
+            
+        
+        
+
+        
+
+
+
+

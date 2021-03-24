@@ -1,0 +1,286 @@
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "GothamPro-Medium", sans-serif;
+  font-size: 12px;
+  background-color: #ffffff;
+  color: #181818;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+}
+
+.network {
+  background-color: #ffffff;
+  margin-bottom: 39px;
+}
+
+.network .container .row {
+  padding: 10px 10px 10px 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.network .container .row .bl1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.network .container .row .bl2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.network .container .row .col, .network .container .row .col-5, .network .container .row .col-3, .network .container .row .col-2, .network .container .row .colimg, .network .container .row .colitem {
+  background-color: #ffffff;
+}
+
+.network .container .row .col, .network .container .row .colimg {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 57px;
+  padding-left: 40px;
+}
+
+.network .container .row .col-5, .network .container .row .colitem {
+  padding-right: 0;
+}
+
+.network .container .row .col-5 .nav, .network .container .row .colitem .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.network .container .row .col-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-left: 0;
+  padding-right: 20px;
+}
+
+.network .container .row .nav-item .nav-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.network .container .row .colsearch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ffffff;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-right: 20px;
+}
+
+.network .container .row .colsearch .search-img {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.network .container .row .customer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  padding: 2px;
+  padding-left: 40px;
+  background-color: #ffffff;
+}
+
+.network .container .row .customer-description {
+  margin-left: 20px;
+}
+
+.network .container .row .last {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: #ffffff;
+  width: 100px;
+}
+
+.network .container .row2-block {
+  width: 250px;
+  margin-left: 0px;
+  padding: 20px 20px 20px 20px;
+  margin-right: 64px;
+}
+
+.network .container .row2-block .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #ffffff;
+}
+
+.network .container .row2-block .nav .connections, .network .container .row2-block .nav .invitations, .network .container .row2-block .nav .teammates, .network .container .row2-block .nav .groups, .network .container .row2-block .nav .pages, .network .container .row2-block .nav .heashtags {
+  border: 1px solid #000;
+}
+
+.network .container .row2-block .nav .connections, .network .container .row2-block .nav .invitations, .network .container .row2-block .nav .teammates, .network .container .row2-block .nav .groups, .network .container .row2-block .nav .pages, .network .container .row2-block .nav .heashtags {
+  position: relative;
+  z-index: 2;
+}
+
+.network .container .row2-block .nav .connections .value, .network .container .row2-block .nav .invitations .value, .network .container .row2-block .nav .teammates .value, .network .container .row2-block .nav .groups .value, .network .container .row2-block .nav .pages .value, .network .container .row2-block .nav .heashtags .value {
+  padding-left: 20px;
+}
+
+.network .container .row2-block .nav div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 52px;
+  padding: 0 30px 0 30px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.network .container .row2-block .nav div div {
+  padding: 0;
+}
+
+.network .container .row2-block .nav div img {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.network .container .row2-block .nav .hoverblue {
+  display: none;
+}
+
+.network .container .row2-block .connections:hover .hoverblue, .network .container .row2-block .invitations:hover .hoverblue, .network .container .row2-block .teammates:hover .hoverblue, .network .container .row2-block .groups:hover .hoverblue, .network .container .row2-block .pages:hover .hoverblue, .network .container .row2-block .heashtags:hover .hoverblue {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 20px;
+  background-color: blue;
+  position: absolute;
+  z-index: 10;
+  left: 0px;
+}
+
+.network .container .row2-block .connections:hover {
+  cursor: pointer;
+}
+
+.network .container .row2-block .invitations:hover {
+  cursor: pointer;
+}
+
+.network .container .row2-block .teammates:hover {
+  cursor: pointer;
+}
+
+.network .container .row2-block .groups:hover {
+  cursor: pointer;
+}
+
+.network .container .row2-block .pages:hover {
+  cursor: pointer;
+}
+
+.network .container .row2-block .heashtags:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+  .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .network .container .row .colimg {
+    padding: 0;
+  }
+  .nav-link {
+    padding: 8px 4px;
+  }
+  .network .container .row .customer {
+    padding-left: 5px;
+  }
+  .customer-description h4 {
+    font-size: 14px;
+  }
+  .network .container .row .colsearch .search-img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .customer-description {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .network .container .row .colsearch {
+    padding-right: 10px;
+  }
+  .network .container .row .last {
+    width: 70px;
+  }
+  .nav-link {
+    padding: 8px 1px;
+  }
+  .network .container .row .nav-item .nav-link p {
+    font-size: 10px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
